@@ -1,2 +1,2 @@
 # LearnMat
-Code is coming soon. Code is currently being prepared.
+The source code is currently being prepared and will be made publicly available soon.
