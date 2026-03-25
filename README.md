@@ -89,3 +89,15 @@ python main_lincls.py -a resnet50 --lr 30.0 --batch-size 256 --pretrained /path/
 python main_lincls.py -a resnet50 --lr 30.0 --batch-size 256 --pretrained /path/to/your/checkpoint.pth.tar --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 /path/to/your/dataset_root/StanfordCars --class_num 196
 python main_lincls.py -a resnet50 --lr 30.0 --batch-size 256 --pretrained /path/to/your/checkpoint.pth.tar --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 /path/to/your/dataset_root/Aircraft --class_num 100
 ```
+
+## Citation
+If you find this code or our paper useful in your research, please consider citing:
+
+```bibtex
+@article{li2026learnmat,
+  title={LearnMat: Semantic-Aware Self-Supervision Fine-Grained Visual Recognition},
+  author={Li, Shuaiheng and Cai, Qing and Zhang, Fan and Shu, Yangyang and Li, Guanbin and Dong, Junyu and Liu, Lingqiao and Zhang, David},
+  journal={IEEE Transactions on Image Processing},
+  year={2026},
+  publisher={IEEE}
+}
